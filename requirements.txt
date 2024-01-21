@@ -1,0 +1,4 @@
+pillow
+argparse
+python-docx
+tqdm
