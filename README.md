@@ -4,6 +4,12 @@ Simple python script to run if you have a bunch of screenshots you want to water
 
 # Usage
 
+Make sure you have your `.docx` file in the same directory.
+
+```bash
+python simple_watermark <filename> <text>
+```
+
 # Installation
 
 ```
