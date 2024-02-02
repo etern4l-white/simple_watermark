@@ -24,9 +24,9 @@ def add_watermark(image_path, output_path, name, border_color, text_color):
                     position[0] + box_width + border_width,
                     position[1] + box_height + border_width],
                     outline=border_color, width=border_width) # only border
-    
+
     watermark_layer.save("watermark_layer.png", "PNG")
-    
+
     """
     Windows command will be (hopefully, I tried it on my lil windows 10)
     subprocess.check_output( ['powershell', '-Command', '(Get-Item "./Screenshot (1).png" ).CreationTime '] ).decode() # HAHA FINALLLY GOT IT
