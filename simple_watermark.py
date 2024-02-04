@@ -15,10 +15,10 @@ def add_watermark(image_path, output_path, name, border_color, text_color):
     img_width, img_height = original_image.size
     watermark_layer = Image.new('RGBA', original_image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(watermark_layer)
-    box_width = 300 # img_width//5
-    box_height = 70 # img_height//10
-    # position = (img_width - box_width - 10, 10)
-    position = (img_width - box_width - 10, img_height - box_height - 10)
+    box_width = img_width//5
+    box_height = img_height//10
+	position = (img_width - box_width - 10, 10)
+    # position = (img_width - box_width - 10, img_height - box_height - 10)
     border_width = 2
     draw.rectangle([position[0] - border_width, position[1] - border_width,
                     position[0] + box_width + border_width,

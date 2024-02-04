@@ -17,3 +17,17 @@ git clone https://github.com/etern4l-white/simple_watermark
 cd simple_watermark
 pip install -r requirements.txt
 ```
+
+
+# TODO
+
+- Make the whole thing as a website.
+- This app will have options:
+	- watermark a single image.
+    - watermark a whole word document (also, pdf in future)
+    - watermark a whole directory.
+	- watermark a zipped file (real zip, not word)
+	- customize watermark --> upload an image as a watermark (fixed on)
+	- move the watermark on the image (live)
+	- make a fixed watermark 
+
